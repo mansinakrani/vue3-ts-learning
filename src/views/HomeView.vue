@@ -1,11 +1,12 @@
 <script setup lang="ts">
-import TheWelcome from '../components/TheWelcome.vue'
+import HelloWorld from '../components/HelloWorld.vue'
+// import TheWelcome from '../components/TheWelcome.vue'
 
 </script>
 
 <template>
   <main>
-    <TheWelcome />
-    <h3>HOME</h3>
+    <!-- <TheWelcome /> -->
+    <HelloWorld msg="You did it!" />
   </main>
 </template>

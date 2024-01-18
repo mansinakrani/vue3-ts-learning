@@ -8,6 +8,7 @@ import vueJsx from '@vitejs/plugin-vue-jsx'
 export default defineConfig({
   plugins: [
     vue(),
+    // vue({ script: { defineModel: true, propsDestructure: true} }),// while working with experimental 
     vueJsx(),
   ],
   resolve: {
